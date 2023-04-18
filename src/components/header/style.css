@@ -1,0 +1,29 @@
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 21px;
+    transition: .5s;
+}
+nav a li:hover{
+    color: #43affd;
+}
+#logo{
+    width: 150px;
+    height: auto;
+}

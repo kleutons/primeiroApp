@@ -1,0 +1,34 @@
+.button{
+    height: 60px;
+    padding: 20px 35px;
+    color: #000;
+    background-color: #74e1ff;
+    border: none;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 25px;
+    white-space: nowrap;
+    transition: .8s;
+}
+.button:hover{
+    background-color: #FFF;
+    color: #000;
+}
+.button.secondary{
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.button.success{
+    color: #fff;
+    background-color: #198754;
+}
+.button.danger{
+    color: #fff;
+    background-color: #dc3545;
+}

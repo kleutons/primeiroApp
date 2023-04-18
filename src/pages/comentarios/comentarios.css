@@ -1,0 +1,52 @@
+#avNota{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.notas .valor{
+    font-size: 35px;
+}
+div.stars{
+
+}
+div.stars > span{
+    background-size: 12px 12px;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+span.starFull{
+    background-image: url('../../assets/img/starFull.png');
+}
+span.starMeio{
+    background-image: url('../../assets/img/starMeia.png');
+}
+span.starNone{
+    background-image: url('../../assets/img/starNone.png');
+}
+div.coment{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-bottom: 1px solid #444f59;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+div.coment > div.foto{
+    margin: 15px;
+    background: #74efff;
+    border-radius: 50%;
+    min-width: 30px;
+    height: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 19px;
+}
+.txtComent p {
+     font-size: 15px;
+}
+#comentarios h2{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+#atores{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+#atores .ator{
+    background-color: #cddbe43d;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ator img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: .7s;
+}
+.ator img:hover{
+   transform: scale(1.02);
+}
+.ator span{
+    padding: 10px;
+    font-size: 20px;
+}

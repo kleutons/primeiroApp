@@ -1,0 +1,118 @@
+.content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trailer{
+    width: 50%;
+}
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+#sinopse p{
+    color: #ffF;
+    font-size: 14px;
+    width: 76%;
+}
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.card{
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:0 0 20px 10px;
+    font-size: 17px;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.banner-1{
+    background-image: url('../../assets/img/cartaz01.jpg');
+}
+.banner-2{
+    background-image: url('../../assets/img/cartaz02.jpg');
+}
+.banner-3{
+    background-image: url('../../assets/img/cartaz03.jpg');
+}
+.btnAtores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnAtores .button{
+    min-width: 250px;
+    margin-top: 50px;
+}
+
+@media(max-width: 768px){
+    #trailer-container{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .trailer{
+        width: 100%;
+    }
+    #sinopse{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+  
+    }
+    #sinopse p{
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        width: 80%;
+    }
+    .card{
+        height: 250px;
+    }
+    #atores{
+        grid-template-columns: 1fr;
+    }
+  }
